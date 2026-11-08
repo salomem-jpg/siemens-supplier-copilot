@@ -1,0 +1,418 @@
+{
+  "source": "Supplier Questionnaire Survey and Rating.pdf (Microsoft Forms PDF supplied by user)",
+  "basicFields": [
+    {
+      "id": 1,
+      "label": "Date"
+    },
+    {
+      "id": 2,
+      "label": "Supplier name"
+    },
+    {
+      "id": 3,
+      "label": "Supplier size"
+    },
+    {
+      "id": 4,
+      "label": "Supplier relationship (existing/new)"
+    },
+    {
+      "id": 5,
+      "label": "Country"
+    },
+    {
+      "id": 6,
+      "label": "Supplier ID"
+    }
+  ],
+  "ratedQuestions": [
+    {
+      "id": 7,
+      "section": "Supply Chain Optimization",
+      "page": 3,
+      "text": "How effectively does your organization implement practices to improve collaboration and optimize supply chain operations?",
+      "illustrativeCriterion": "A1"
+    },
+    {
+      "id": 8,
+      "section": "Supply Chain Optimization",
+      "page": 3,
+      "text": "How effectively does your organization implement practices to collaborate and integrate systems with sub-suppliers?",
+      "illustrativeCriterion": "C2"
+    },
+    {
+      "id": 9,
+      "section": "Supply Chain Optimization",
+      "page": 4,
+      "text": "How effectively does your organization adopt technologies to automate and enhance supply chain operations?",
+      "illustrativeCriterion": "B1"
+    },
+    {
+      "id": 10,
+      "section": "Supply Chain Optimization",
+      "page": 4,
+      "text": "How effectively does your organization leverage data analytics and data tools to monitor and improve process efficiency?",
+      "illustrativeCriterion": "B6"
+    },
+    {
+      "id": 11,
+      "section": "Supply Chain Optimization",
+      "page": 5,
+      "text": "How effectively does your organization implement practices to enhance supply chain responsiveness and agility?",
+      "illustrativeCriterion": "C3"
+    },
+    {
+      "id": 12,
+      "section": "Supply Chain Optimization",
+      "page": 5,
+      "text": "How effectively does your organization leverage inventory management practices/technologies to help manage inventory?",
+      "illustrativeCriterion": "B4"
+    },
+    {
+      "id": 13,
+      "section": "Supply Chain Optimization",
+      "page": 6,
+      "text": "How effectively does your organization utilise techniques/practices to match supply forecast demand?",
+      "illustrativeCriterion": "A1"
+    },
+    {
+      "id": 14,
+      "section": "Supply Chain Optimization",
+      "page": 6,
+      "text": "How effectively does your organization leverage technology to optimise logistics operations?",
+      "illustrativeCriterion": "B5"
+    },
+    {
+      "id": 15,
+      "section": "Supply Chain Optimization",
+      "page": 7,
+      "text": "How effectively are risk management practices integrated into your supply chain to mitigate risks?",
+      "illustrativeCriterion": "C1"
+    },
+    {
+      "id": 16,
+      "section": "Supply Chain Optimization",
+      "page": 7,
+      "text": "How effectively is business continuity planning incorporated into the organization’s operating procedures in the event of an unexpected emergency?",
+      "illustrativeCriterion": "C1"
+    },
+    {
+      "id": 17,
+      "section": "Process Efficiency",
+      "page": 8,
+      "text": "How effectively does your organization implement lean management principles like Kaizen or 5S to streamline production processes?",
+      "illustrativeCriterion": "B2"
+    },
+    {
+      "id": 18,
+      "section": "Process Efficiency",
+      "page": 8,
+      "text": "How effectively has your organization integrated automation or manufacturing into your production processes?",
+      "illustrativeCriterion": "B1"
+    },
+    {
+      "id": 19,
+      "section": "Process Efficiency",
+      "page": 9,
+      "text": "How effectively are data analytics and data integrated into your process to monitor and improve process efficiency?",
+      "illustrativeCriterion": "B3"
+    },
+    {
+      "id": 20,
+      "section": "Process Efficiency",
+      "page": 9,
+      "text": "How effectively are practices/mechanisms like Modular Production Systems integrated to enhance internal flexibility and adaptability of your production processes?",
+      "illustrativeCriterion": "C4"
+    },
+    {
+      "id": 21,
+      "section": "Process Efficiency",
+      "page": 10,
+      "text": "How effectively does your organization employ techniques/practices to enhance responsiveness to client demand changes or urgent requests?",
+      "illustrativeCriterion": "C3"
+    },
+    {
+      "id": 22,
+      "section": "Process Efficiency",
+      "page": 10,
+      "text": "How effectively does your organization implement practices to enhance standardisation, efficiency and reduce variability?",
+      "illustrativeCriterion": "B6"
+    },
+    {
+      "id": 23,
+      "section": "Process Efficiency",
+      "page": 11,
+      "text": "How effectively are process documentation practices integrated in the organisation to ensure consistency and facilitate future improvements?",
+      "illustrativeCriterion": "B7"
+    },
+    {
+      "id": 24,
+      "section": "Process Efficiency",
+      "page": 11,
+      "text": "Rate effectiveness of existing mechanisms/techniques to adapt and adjust production to fluctuating demand and ensure process continuity during disruptions.",
+      "illustrativeCriterion": "C1"
+    },
+    {
+      "id": 25,
+      "section": "Continuous Improvement",
+      "page": 12,
+      "text": "How effectively does the organisation leverage lean management principles to continuously improve operational efficiency?",
+      "illustrativeCriterion": "B2"
+    },
+    {
+      "id": 26,
+      "section": "Continuous Improvement",
+      "page": 12,
+      "text": "How effective are existing tracking mechanisms in measuring performance of continuous improvement process to reduce non-value-added activities?",
+      "illustrativeCriterion": "B7"
+    },
+    {
+      "id": 27,
+      "section": "Continuous Improvement",
+      "page": 13,
+      "text": "How effectively has the company leveraged innovations like carbon capture or renewable energy in response to Siemens Energy’s demand for advanced energy solutions?",
+      "illustrativeCriterion": "A5"
+    },
+    {
+      "id": 28,
+      "section": "Continuous Improvement",
+      "page": 13,
+      "text": "How integrated are employee training and development programs within the organisation’s culture to ensure employee’s continuous improvement?",
+      "illustrativeCriterion": "B7"
+    },
+    {
+      "id": 29,
+      "section": "Continuous Improvement",
+      "page": 14,
+      "text": "Rate effectiveness of employee driven continuous improvement initiatives and the feedback mechanisms that are in place to gather their input.",
+      "illustrativeCriterion": "B7"
+    },
+    {
+      "id": 30,
+      "section": "Continuous Improvement",
+      "page": 14,
+      "text": "How effectively does your organisation implement initiatives to improve supply chain resilience and ensure minimal disruption in the face of global challenges?",
+      "illustrativeCriterion": "C1"
+    },
+    {
+      "id": 31,
+      "section": "Continuous Improvement",
+      "page": 15,
+      "text": "Rate effectiveness of existing continuous improvement strategies to optimise operational costs without impacting overall quality.",
+      "illustrativeCriterion": "B2"
+    },
+    {
+      "id": 32,
+      "section": "Continuous Improvement",
+      "page": 15,
+      "text": "Rate effectiveness of existing waste identification and elimination practices to continuously improve processes.",
+      "illustrativeCriterion": "B2"
+    },
+    {
+      "id": 33,
+      "section": "Continuous Improvement",
+      "page": 16,
+      "text": "How effectively has the organisation implemented continuous improvements in energy consumption and emissions controls?",
+      "illustrativeCriterion": "B6"
+    },
+    {
+      "id": 34,
+      "section": "Continuous Improvement",
+      "page": 16,
+      "text": "How effectively has the organisation implemented continuous improvement practices to ensure compliance with Siemens Energy’s environmental standards and regulations?",
+      "illustrativeCriterion": "B6"
+    },
+    {
+      "id": 35,
+      "section": "Quality Management",
+      "page": 17,
+      "text": "Rate effectiveness of existing procedures to ensure zero-defect delivery through process control for low volume high-complexity components?",
+      "illustrativeCriterion": "B3"
+    },
+    {
+      "id": 36,
+      "section": "Quality Management",
+      "page": 17,
+      "text": "How well integrated is First Pass Yield (FPY) assessment to ensure optimal quality control of delivery?",
+      "illustrativeCriterion": "B3"
+    },
+    {
+      "id": 37,
+      "section": "Quality Management",
+      "page": 18,
+      "text": "How effectively does your organization implement and maintain compliant certifications standards like ISO 9001:2015 and MMOGLE Global Materials Management Operations through scheduled internal and external audits?",
+      "illustrativeCriterion": "B6"
+    },
+    {
+      "id": 38,
+      "section": "Quality Management",
+      "page": 18,
+      "text": "How well-developed are your compliance audit processes, including their frequency, methodology, and ability to ensure alignment with industry standards and customer requirements?",
+      "illustrativeCriterion": "B6"
+    },
+    {
+      "id": 39,
+      "section": "Quality Management",
+      "page": 19,
+      "text": "How effective is the existing formal escalation process in addressing non-conformance issues quickly?",
+      "illustrativeCriterion": "B6"
+    },
+    {
+      "id": 40,
+      "section": "Quality Management",
+      "page": 19,
+      "text": "How well is quality control integrated into your production process, and what tools or practices are employed to detect and address defects at early stages?",
+      "illustrativeCriterion": "B3"
+    },
+    {
+      "id": 41,
+      "section": "Workforce Engagement",
+      "page": 20,
+      "text": "How effectively does your organization promote continuous learning through structured training programs and skill development initiatives?",
+      "illustrativeCriterion": "B7"
+    },
+    {
+      "id": 42,
+      "section": "Workforce Engagement",
+      "page": 20,
+      "text": "How effectively does your organization support employee development through structured plans and consistent feedback mechanisms?",
+      "illustrativeCriterion": "B7"
+    },
+    {
+      "id": 43,
+      "section": "Workforce Engagement",
+      "page": 21,
+      "text": "How effectively does your organization provide tools and resources to support employee collaboration?",
+      "illustrativeCriterion": "B7"
+    },
+    {
+      "id": 44,
+      "section": "Workforce Engagement",
+      "page": 21,
+      "text": "How flexible is your manufacturing workforce, cross-trained to handle multiple roles and enhance operational flexibility?",
+      "illustrativeCriterion": "B7"
+    },
+    {
+      "id": 45,
+      "section": "Workforce Engagement",
+      "page": 22,
+      "text": "How effectively have ergonomic principles been implemented across your manufacturing workstations and processes?",
+      "illustrativeCriterion": "B6"
+    },
+    {
+      "id": 46,
+      "section": "Workforce Engagement",
+      "page": 22,
+      "text": "How engaged are union representatives integrated into operational improvement initiatives within your organization?",
+      "illustrativeCriterion": "B7"
+    },
+    {
+      "id": 47,
+      "section": "Customer Focus",
+      "page": 23,
+      "text": "How effectively does your organization communicate with customers regarding order status, potential delays, or changes?",
+      "illustrativeCriterion": "B6"
+    },
+    {
+      "id": 48,
+      "section": "Customer Focus",
+      "page": 23,
+      "text": "How effectively does your organization provide comprehensive post-sale technical support to customers?",
+      "illustrativeCriterion": "A5"
+    },
+    {
+      "id": 49,
+      "section": "Customer Focus",
+      "page": 24,
+      "text": "How effectively does your organization respond to and resolve quality issues or non-conformances?",
+      "illustrativeCriterion": "B3"
+    },
+    {
+      "id": 50,
+      "section": "Customer Focus",
+      "page": 24,
+      "text": "How effectively does your organization investigate root causes and implement corrective actions for issues?",
+      "illustrativeCriterion": "B3"
+    },
+    {
+      "id": 51,
+      "section": "Customer Focus",
+      "page": 25,
+      "text": "How effectively does your organization meet agreed lead times for customer orders?",
+      "illustrativeCriterion": "B5"
+    },
+    {
+      "id": 52,
+      "section": "Customer Focus",
+      "page": 25,
+      "text": "How effectively does your organization provide early warnings to customers when lead times cannot be met?",
+      "illustrativeCriterion": "B5"
+    },
+    {
+      "id": 53,
+      "section": "Customer Focus",
+      "page": 26,
+      "text": "How effectively does your organization implement improvements based on customer quality feedback?",
+      "illustrativeCriterion": "B3"
+    },
+    {
+      "id": 54,
+      "section": "Adaptability and Innovation",
+      "page": 27,
+      "text": "How effectively can your production capacity adapt to fluctuating demand while maintaining consistent quality standards?",
+      "illustrativeCriterion": "A3"
+    },
+    {
+      "id": 55,
+      "section": "Adaptability and Innovation",
+      "page": 27,
+      "text": "How well does your organization handle customized orders, and what capabilities do you have in place to support this flexibility?",
+      "illustrativeCriterion": "A5"
+    },
+    {
+      "id": 56,
+      "section": "Adaptability and Innovation",
+      "page": 28,
+      "text": "How integrated and effective is your communication system in ensuring transparent updates to customers regarding production progress, potential concerns, or delivery timelines?",
+      "illustrativeCriterion": "C3"
+    },
+    {
+      "id": 57,
+      "section": "Adaptability and Innovation",
+      "page": 28,
+      "text": "How effective is your R&D team in integrating evolving market requirements into your production processes and product development?",
+      "illustrativeCriterion": "A5"
+    },
+    {
+      "id": 58,
+      "section": "Adaptability and Innovation",
+      "page": 29,
+      "text": "How effectively does your organization develop products and processes that adapt to evolving market demands, such as meeting zero-emission targets or enhancing energy efficiency?",
+      "illustrativeCriterion": "A4"
+    },
+    {
+      "id": 59,
+      "section": "Adaptability and Innovation",
+      "page": 29,
+      "text": "How effectively does your organization demonstrate flexibility in integrating innovative manufacturing processes, such as adopting 3D printing technologies?",
+      "illustrativeCriterion": "A5"
+    },
+    {
+      "id": 60,
+      "section": "Adaptability and Innovation",
+      "page": 30,
+      "text": "How effectively does your organization assess and optimize the use of technology in production processes and product delivery, such as tracking machine breakdown time or evaluating maintenance efficiency?",
+      "illustrativeCriterion": "B4"
+    },
+    {
+      "id": 61,
+      "section": "Adaptability and Innovation",
+      "page": 30,
+      "text": "How effective is the unified system used across your organization in improving data visibility, transparency in reporting, and driving continuous improvement and innovation?",
+      "illustrativeCriterion": "B6"
+    }
+  ],
+  "ratingScale": "1–5 effectiveness/integration as described in original PDF; blank = unknown, not 0",
+  "crosswalkDisclaimer": "Illustrative Q→A/B/C mapping created for the student prototype, not an approved Siemens weighting or assessment policy. Original PDF remains the source for exact anchored response descriptions."
+}

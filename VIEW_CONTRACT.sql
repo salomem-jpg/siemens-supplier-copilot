@@ -1,0 +1,10 @@
+-- ILLUSTRATIVE target views only. Siemens IT must validate schema, naming, masking and access.
+-- No CREATE commands are run by the demo. Configure read-only grants and row-level security.
+-- Names correspond to the allowlist in snowflake_adapter.py.
+-- Each view must present SUPPLIER_ID as a join key, scoped to the user's authorized suppliers.
+-- SCP_V_SUPPLIER_RISK(SUPPLIER_ID, CONTINUITY_FLAG, CRITICAL_DEPENDENCY, RISK_SUMMARY)
+-- SCP_V_SUPPLIER_PERFORMANCE(SUPPLIER_ID, ON_TIME_DELIVERY_PCT, FIRST_PASS_YIELD_PCT,
+--                              MONTHLY_CAPACITY, REQUIRED_MONTHLY_CAPACITY, CURRENT_LEAD_DAYS)
+-- SCP_V_SUPPLIER_EVALUATION(SUPPLIER_ID, ASSESSMENT_STATUS, PRIORITY_GAP, REVIEW_NOTE)
+-- SCP_V_SUPPLIER_RELATIONSHIP(SUPPLIER_ID, ACCOUNT_OWNER, FORECAST_STATUS, SUPPLIER_WILLINGNESS)
+-- Exact type/units, evidence timestamps and authoritative source ownership must be agreed.

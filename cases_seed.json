@@ -1,0 +1,704 @@
+[
+  {
+    "id": "DEMO-EX-001",
+    "name": "Atlas Precision Components",
+    "type": "Existing",
+    "country": "Germany",
+    "sector": "Precision machining",
+    "trigger": "Increase output of turbine components to meet forecast demand",
+    "objective": "Raise monthly throughput from 1,000 to 1,600 units in six months without loss of quality",
+    "need_date": "2027-05-15",
+    "owner": "Demo Commodity Manager",
+    "criteria": [
+      "A2",
+      "A3",
+      "B4"
+    ],
+    "evidence_verified": true,
+    "evidence": "Synthetic site review: cycle-time study, 12-month OTD history and constrained CNC cell",
+    "gap": "Throughput constrained by CNC utilization and changeovers",
+    "domain_notes": "Capacity expansion needs both ramp-up planning and production-flow improvement",
+    "selected": [
+      "INT-001",
+      "INT-007"
+    ],
+    "diagnosis_approved": true,
+    "solution_approved": true,
+    "finance": {
+      "gain": 12000000,
+      "p_technical": 0.9,
+      "p_on_time": 0.8,
+      "p_sustain": 0.8333333,
+      "cost_experts": 600000,
+      "cost_travel": 100000,
+      "cost_testing": 200000,
+      "cost_tooling": 1000000,
+      "cost_incentives": 100000,
+      "currency": "EUR",
+      "horizon_months": 24,
+      "tech_ok": true,
+      "timing_ok": true,
+      "supplier_willing": "Yes with conditions",
+      "supplier_capex": 2700000,
+      "supplier_opex": 650000,
+      "supplier_contribution": 2200000,
+      "retained_savings": 900000,
+      "productivity_relief": 400000,
+      "other_customer_upside": 650000,
+      "volume_status": "Nonbinding forecast",
+      "mechanism": "Siemens expert support + productivity-ask relief",
+      "sponsor_review": "Approved in simulated scenario",
+      "p_low": 0.45,
+      "p_high": 0.7,
+      "gain_basis": "Protected orders from capacity increase / avoided delivery disruption"
+    },
+    "commitments": {
+      "siemens_owner": "Demo Quality Engineer",
+      "supplier_owner": "Demo Operations Director",
+      "milestone": "Complete one-line pilot before equipment release",
+      "siemens_approved": true,
+      "supplier_approved": true
+    },
+    "actions": [
+      {
+        "task": "Complete bottleneck measurement",
+        "owner": "Supplier operations",
+        "due": "2027-01-15",
+        "status": "Done",
+        "evidence": "SYNTHETIC: cycle-time file"
+      },
+      {
+        "task": "Run changeover pilot",
+        "owner": "Siemens and supplier engineers",
+        "due": "2027-03-01",
+        "status": "Done",
+        "evidence": "SYNTHETIC: pilot report"
+      }
+    ],
+    "verification": {
+      "metric": "Monthly qualified output (units)",
+      "baseline": 1000,
+      "target": 1600,
+      "actual": 1650,
+      "evidence": "SYNTHETIC: six-week measured production run",
+      "verifier": "Demo Verification Engineer",
+      "sustained": true
+    },
+    "closure": {
+      "owner": "Demo Supplier Continuous Improvement Lead",
+      "followup": "Monthly OTD and quarterly capacity review",
+      "lessons": "Plan staffing alongside equipment investment",
+      "approved_by": "Demo Supplier Development Lead"
+    },
+    "completed_stage": 8,
+    "survey": {
+      "basic": {
+        "date": "2026-11-08",
+        "supplier_name": "Atlas Precision Components",
+        "supplier_size": "Medium Enterprise ($10m\u2013$75m)",
+        "relationship": "Existing",
+        "country": "Germany",
+        "supplier_id": "DEMO-EX-001"
+      },
+      "Q7": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q8": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q9": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q10": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q11": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q12": {
+        "rating": 2,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q13": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q14": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q15": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q16": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q17": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q18": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q19": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q20": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q21": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q22": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q23": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q24": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q25": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q26": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q27": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q28": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q29": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q30": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q31": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q32": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q33": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q34": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q35": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q36": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q37": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q38": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q39": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q40": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q41": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q42": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q43": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q44": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q45": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q46": {
+        "rating": 4,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q47": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q48": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q49": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q50": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q51": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q52": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q53": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q54": {
+        "rating": 2,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q55": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q56": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q57": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q58": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q59": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q60": {
+        "rating": 2,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      },
+      "Q61": {
+        "rating": 3,
+        "evidence": "SYNTHETIC supplier self-report; subject to site evidence verification"
+      }
+    },
+    "data_snapshot": {}
+  },
+  {
+    "id": "DEMO-NEW-002",
+    "name": "Meridian Thermal Systems",
+    "type": "New",
+    "country": "Poland",
+    "sector": "Specialty fabrications",
+    "trigger": "Develop an alternate source for complex heat-exchanger parts",
+    "objective": "Qualify a new source without a binding business award",
+    "need_date": "2027-09-30",
+    "owner": "Demo Supplier Development Lead",
+    "criteria": [
+      "A2",
+      "A5",
+      "C4"
+    ],
+    "evidence_verified": false,
+    "evidence": "Supplier self-assessment only; no site qualification or yield trial yet",
+    "gap": "Requires dedicated tooling, qualification and production transfer",
+    "domain_notes": "Supplier requires financing before commitment; dual source is an unmet business need",
+    "selected": [
+      "INT-003",
+      "INT-011"
+    ],
+    "diagnosis_approved": false,
+    "solution_approved": false,
+    "finance": {
+      "gain": 7000000,
+      "p_technical": 0.7,
+      "p_on_time": 0.55,
+      "p_sustain": 0.75,
+      "cost_experts": 450000,
+      "cost_travel": 150000,
+      "cost_testing": 350000,
+      "cost_tooling": 1000000,
+      "cost_incentives": 400000,
+      "currency": "EUR",
+      "horizon_months": 36,
+      "tech_ok": false,
+      "timing_ok": false,
+      "supplier_willing": "No",
+      "supplier_capex": 4200000,
+      "supplier_opex": 900000,
+      "supplier_contribution": 1200000,
+      "retained_savings": 100000,
+      "productivity_relief": 300000,
+      "other_customer_upside": 400000,
+      "volume_status": "No committed volume",
+      "mechanism": "To evaluate: staged trial or conditional award (not approved)",
+      "sponsor_review": "Pending",
+      "p_low": 0.15,
+      "p_high": 0.47,
+      "gain_basis": "Option value of qualifying alternate long-lead source"
+    },
+    "commitments": {},
+    "actions": [],
+    "verification": {},
+    "closure": {},
+    "completed_stage": 1,
+    "survey": {
+      "basic": {
+        "date": "2026-11-08",
+        "supplier_name": "Meridian Thermal Systems",
+        "supplier_size": "Small Enterprise (<$10m)",
+        "relationship": "New",
+        "country": "Poland",
+        "supplier_id": "DEMO-NEW-002"
+      },
+      "Q7": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q8": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q9": {
+        "rating": 2,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q10": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q11": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q12": {
+        "rating": 2,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q13": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q14": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q15": {
+        "rating": 2,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q16": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q17": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q18": {
+        "rating": 2,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q19": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q20": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q21": {
+        "rating": 2,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q22": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q23": {
+        "rating": 3,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      },
+      "Q24": {
+        "rating": 2,
+        "evidence": "SYNTHETIC incomplete self-report; no qualification visit"
+      }
+    },
+    "data_snapshot": {}
+  },
+  {
+    "id": "DEMO-EX-003",
+    "name": "Northstar Castings",
+    "type": "Existing",
+    "country": "United States",
+    "sector": "Industrial castings",
+    "trigger": "Reduce scrap and stabilize output at a complex casting process",
+    "objective": "Raise first-pass yield from 81% to 93% and protect delivery",
+    "need_date": "2027-07-31",
+    "owner": "Demo Supply Quality Manager",
+    "criteria": [
+      "B2",
+      "B3",
+      "B7"
+    ],
+    "evidence_verified": true,
+    "evidence": "SYNTHETIC: six-month FPY series, scrap Pareto and production engineering audit",
+    "gap": "Variation at process setup and weak preventive routines",
+    "domain_notes": "Production improvement is the primary business need",
+    "selected": [
+      "INT-006",
+      "INT-008"
+    ],
+    "diagnosis_approved": true,
+    "solution_approved": true,
+    "finance": {
+      "gain": 4500000,
+      "p_technical": 0.9,
+      "p_on_time": 0.8,
+      "p_sustain": 0.75,
+      "cost_experts": 360000,
+      "cost_travel": 90000,
+      "cost_testing": 150000,
+      "cost_tooling": 450000,
+      "cost_incentives": 100000,
+      "currency": "EUR",
+      "horizon_months": 24,
+      "tech_ok": true,
+      "timing_ok": true,
+      "supplier_willing": "Yes",
+      "supplier_capex": 350000,
+      "supplier_opex": 140000,
+      "supplier_contribution": 650000,
+      "retained_savings": 300000,
+      "productivity_relief": 120000,
+      "other_customer_upside": 0,
+      "volume_status": "Existing contract",
+      "mechanism": "Expert support + targeted process improvement",
+      "sponsor_review": "Pending",
+      "p_low": 0.42,
+      "p_high": 0.68,
+      "gain_basis": "Scrap and rework avoidance plus delivery protection"
+    },
+    "commitments": {},
+    "actions": [],
+    "verification": {},
+    "closure": {},
+    "completed_stage": 3,
+    "survey": {
+      "basic": {
+        "date": "2026-11-08",
+        "supplier_name": "Northstar Castings",
+        "supplier_size": "Medium Enterprise ($10m\u2013$75m)",
+        "relationship": "Existing",
+        "country": "United States",
+        "supplier_id": "DEMO-EX-003"
+      },
+      "Q17": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q18": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q19": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q20": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q21": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q22": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q23": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q24": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q25": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q26": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q27": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q28": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q29": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q30": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q31": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q32": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q33": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q34": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q35": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q36": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q37": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q38": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q39": {
+        "rating": 3,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      },
+      "Q40": {
+        "rating": 2,
+        "evidence": "SYNTHETIC self-rating; quality data available separately"
+      }
+    },
+    "data_snapshot": {}
+  },
+  {
+    "id": "DEMO-EX-004",
+    "name": "Harbor Controls",
+    "type": "Existing",
+    "country": "Czech Republic",
+    "sector": "Electronic assemblies",
+    "trigger": "Reduce continuity exposure from single-source control boards",
+    "objective": "Improve tier-two dependency visibility and recovery preparedness",
+    "need_date": "2027-08-31",
+    "owner": "Demo Risk Manager",
+    "criteria": [
+      "C1",
+      "C2",
+      "C4"
+    ],
+    "evidence_verified": true,
+    "evidence": "SYNTHETIC: dependency mapping workshop and supplier disaster recovery tabletop",
+    "gap": "Unmapped dependencies and incomplete fallback planning",
+    "domain_notes": "A low domain maturity score alone does not prove this is the top business priority",
+    "selected": [
+      "INT-015",
+      "INT-014"
+    ],
+    "diagnosis_approved": true,
+    "solution_approved": true,
+    "finance": {
+      "gain": 3600000,
+      "p_technical": 0.85,
+      "p_on_time": 0.8,
+      "p_sustain": 0.8,
+      "cost_experts": 220000,
+      "cost_travel": 80000,
+      "cost_testing": 90000,
+      "cost_tooling": 200000,
+      "cost_incentives": 90000,
+      "currency": "EUR",
+      "horizon_months": 30,
+      "tech_ok": true,
+      "timing_ok": true,
+      "supplier_willing": "Yes with conditions",
+      "supplier_capex": 250000,
+      "supplier_opex": 160000,
+      "supplier_contribution": 300000,
+      "retained_savings": 100000,
+      "productivity_relief": 70000,
+      "other_customer_upside": 0,
+      "volume_status": "Existing contract",
+      "mechanism": "Joint mapping and funded continuity trial",
+      "sponsor_review": "Pending",
+      "p_low": 0.38,
+      "p_high": 0.68,
+      "gain_basis": "Risk-adjusted avoided production interruption loss"
+    },
+    "commitments": {},
+    "actions": [],
+    "verification": {},
+    "closure": {},
+    "completed_stage": 3,
+    "survey": {
+      "basic": {
+        "date": "2026-11-08",
+        "supplier_name": "Harbor Controls",
+        "supplier_size": "Medium Enterprise ($10m\u2013$75m)",
+        "relationship": "Existing",
+        "country": "Czech Republic",
+        "supplier_id": "DEMO-EX-004"
+      }
+    },
+    "data_snapshot": {}
+  }
+]

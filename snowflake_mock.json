@@ -1,0 +1,127 @@
+{
+  "mode": "MOCK ONLY \u2014 all supplier identities and observations synthetic, harmonized for demo",
+  "sources": [
+    "SUPPLIER_RISK_MANAGEMENT",
+    "SUPPLIER_PERFORMANCE_MANAGEMENT",
+    "SUPPLIER_EVALUATION",
+    "SUPPLIER_RELATIONSHIP_MANAGEMENT"
+  ],
+  "suppliers": [
+    {
+      "supplier_id": "DEMO-EX-001",
+      "supplier_name": "Atlas Precision Components",
+      "relationship": "Existing",
+      "country": "Germany",
+      "domain": "A,B",
+      "risk": {
+        "critical_dependency": "Specialized CNC machining",
+        "continuity_flag": "Monitor",
+        "risk_summary": "Single critical production line; contingency plan unverified"
+      },
+      "performance": {
+        "on_time_delivery_pct": 82,
+        "first_pass_yield_pct": 91,
+        "monthly_capacity": 1000,
+        "required_monthly_capacity": 1600,
+        "current_lead_days": 52
+      },
+      "evaluation": {
+        "assessment_status": "Illustrative reviewer-confirmed",
+        "priority_gap": "A2, A3, B4",
+        "review_note": "SYNTHETIC snapshot aligned to the demo supplier ID; assessor review required"
+      },
+      "relationship_mgmt": {
+        "account_owner": "Demo procurement manager",
+        "forecast_status": "Planning only, not a purchase commitment",
+        "supplier_willingness": "Yes with conditions"
+      }
+    },
+    {
+      "supplier_id": "DEMO-NEW-002",
+      "supplier_name": "Meridian Thermal Systems",
+      "relationship": "New",
+      "country": "Poland",
+      "domain": "A,C",
+      "risk": {
+        "critical_dependency": "Dedicated tooling and skilled labor",
+        "continuity_flag": "High",
+        "risk_summary": "Cannot commit capacity before investment assurance"
+      },
+      "performance": {
+        "on_time_delivery_pct": null,
+        "first_pass_yield_pct": null,
+        "monthly_capacity": 200,
+        "required_monthly_capacity": 550,
+        "current_lead_days": null
+      },
+      "evaluation": {
+        "assessment_status": "Not validated",
+        "priority_gap": "A2, A5, C4",
+        "review_note": "SYNTHETIC snapshot aligned to the demo supplier ID; assessor review required"
+      },
+      "relationship_mgmt": {
+        "account_owner": "Demo sourcing manager",
+        "forecast_status": "Unawarded volume",
+        "supplier_willingness": "Conditional on co-investment"
+      }
+    },
+    {
+      "supplier_id": "DEMO-EX-003",
+      "supplier_name": "Northstar Castings",
+      "relationship": "Existing",
+      "country": "United States",
+      "domain": "B",
+      "risk": {
+        "critical_dependency": "Casting process stability",
+        "continuity_flag": "Medium",
+        "risk_summary": "Recurring yield issue"
+      },
+      "performance": {
+        "on_time_delivery_pct": 94,
+        "first_pass_yield_pct": 79,
+        "monthly_capacity": 900,
+        "required_monthly_capacity": 930,
+        "current_lead_days": 36
+      },
+      "evaluation": {
+        "assessment_status": "Gap identified",
+        "priority_gap": "B2, B3, B7",
+        "review_note": "SYNTHETIC snapshot aligned to the demo supplier ID; assessor review required"
+      },
+      "relationship_mgmt": {
+        "account_owner": "Demo supplier quality engineer",
+        "forecast_status": "Existing framework agreement",
+        "supplier_willingness": "Open to training"
+      }
+    },
+    {
+      "supplier_id": "DEMO-NEW-004",
+      "supplier_name": "Harbor Grid Components",
+      "relationship": "New",
+      "country": "United States",
+      "domain": "C",
+      "risk": {
+        "critical_dependency": "Sub-tier electronic components",
+        "continuity_flag": "High",
+        "risk_summary": "No tested alternative source or recovery procedure"
+      },
+      "performance": {
+        "on_time_delivery_pct": null,
+        "first_pass_yield_pct": null,
+        "monthly_capacity": null,
+        "required_monthly_capacity": null,
+        "current_lead_days": null
+      },
+      "evaluation": {
+        "assessment_status": "Evidence requested",
+        "priority_gap": "C1, C2, C4",
+        "review_note": "Questionnaire not site-validated"
+      },
+      "relationship_mgmt": {
+        "account_owner": "Demo risk manager",
+        "forecast_status": "Exploratory",
+        "supplier_willingness": "Unknown"
+      }
+    }
+  ]
+}
