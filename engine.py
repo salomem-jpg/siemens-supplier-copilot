@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 ROOT=Path(__file__).resolve().parent
-DATA=ROOT/'data'
+DATA=ROOT
 CASES=json.loads((DATA/'cases_seed.json').read_text(encoding='utf-8'))
 INTERVENTIONS=json.loads((DATA/'interventions.json').read_text(encoding='utf-8'))
 CRITERIA=list(csv.DictReader((DATA/'criteria.csv').open(encoding='utf-8')))
